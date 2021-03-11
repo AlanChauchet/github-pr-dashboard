@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AlanChauchet/github-pr-dashboard/static/css/main.4d52003b.chunk.css",
-    "main.js": "/AlanChauchet/github-pr-dashboard/static/js/main.94ff7490.chunk.js",
-    "main.js.map": "/AlanChauchet/github-pr-dashboard/static/js/main.94ff7490.chunk.js.map",
-    "runtime~main.js": "/AlanChauchet/github-pr-dashboard/static/js/runtime~main.7e6a48ff.js",
-    "runtime~main.js.map": "/AlanChauchet/github-pr-dashboard/static/js/runtime~main.7e6a48ff.js.map",
-    "static/js/2.b35839cd.chunk.js": "/AlanChauchet/github-pr-dashboard/static/js/2.b35839cd.chunk.js",
-    "static/js/2.b35839cd.chunk.js.map": "/AlanChauchet/github-pr-dashboard/static/js/2.b35839cd.chunk.js.map",
-    "index.html": "/AlanChauchet/github-pr-dashboard/index.html",
-    "precache-manifest.3354187cd6bf2dacb2e3d25fc5db2000.js": "/AlanChauchet/github-pr-dashboard/precache-manifest.3354187cd6bf2dacb2e3d25fc5db2000.js",
-    "service-worker.js": "/AlanChauchet/github-pr-dashboard/service-worker.js",
-    "static/css/main.4d52003b.chunk.css.map": "/AlanChauchet/github-pr-dashboard/static/css/main.4d52003b.chunk.css.map"
+    "main.css": "/github-pr-dashboard/static/css/main.4d52003b.chunk.css",
+    "main.js": "/github-pr-dashboard/static/js/main.c641d9d3.chunk.js",
+    "main.js.map": "/github-pr-dashboard/static/js/main.c641d9d3.chunk.js.map",
+    "runtime~main.js": "/github-pr-dashboard/static/js/runtime~main.b1561292.js",
+    "runtime~main.js.map": "/github-pr-dashboard/static/js/runtime~main.b1561292.js.map",
+    "static/js/2.73e3c4d0.chunk.js": "/github-pr-dashboard/static/js/2.73e3c4d0.chunk.js",
+    "static/js/2.73e3c4d0.chunk.js.map": "/github-pr-dashboard/static/js/2.73e3c4d0.chunk.js.map",
+    "index.html": "/github-pr-dashboard/index.html",
+    "precache-manifest.e03f27ac0cf281071af476e661bf07f9.js": "/github-pr-dashboard/precache-manifest.e03f27ac0cf281071af476e661bf07f9.js",
+    "service-worker.js": "/github-pr-dashboard/service-worker.js",
+    "static/css/main.4d52003b.chunk.css.map": "/github-pr-dashboard/static/css/main.4d52003b.chunk.css.map"
   }
 }
