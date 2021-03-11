@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/github-pr-dashboard/static/css/main.4d52003b.chunk.css",
-    "main.js": "/github-pr-dashboard/static/js/main.8a5790cc.chunk.js",
-    "main.js.map": "/github-pr-dashboard/static/js/main.8a5790cc.chunk.js.map",
+    "main.js": "/github-pr-dashboard/static/js/main.54599d0e.chunk.js",
+    "main.js.map": "/github-pr-dashboard/static/js/main.54599d0e.chunk.js.map",
     "runtime~main.js": "/github-pr-dashboard/static/js/runtime~main.b1561292.js",
     "runtime~main.js.map": "/github-pr-dashboard/static/js/runtime~main.b1561292.js.map",
-    "static/js/2.73e3c4d0.chunk.js": "/github-pr-dashboard/static/js/2.73e3c4d0.chunk.js",
-    "static/js/2.73e3c4d0.chunk.js.map": "/github-pr-dashboard/static/js/2.73e3c4d0.chunk.js.map",
+    "static/js/2.f4f96004.chunk.js": "/github-pr-dashboard/static/js/2.f4f96004.chunk.js",
+    "static/js/2.f4f96004.chunk.js.map": "/github-pr-dashboard/static/js/2.f4f96004.chunk.js.map",
     "index.html": "/github-pr-dashboard/index.html",
-    "precache-manifest.acc5b7071848fd337e869359db309df6.js": "/github-pr-dashboard/precache-manifest.acc5b7071848fd337e869359db309df6.js",
+    "precache-manifest.0c9f6d4e83704db2c7b939b57d45662b.js": "/github-pr-dashboard/precache-manifest.0c9f6d4e83704db2c7b939b57d45662b.js",
     "service-worker.js": "/github-pr-dashboard/service-worker.js",
     "static/css/main.4d52003b.chunk.css.map": "/github-pr-dashboard/static/css/main.4d52003b.chunk.css.map"
   }
