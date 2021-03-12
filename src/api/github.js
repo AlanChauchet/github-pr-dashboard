@@ -2,7 +2,7 @@ import Octokit from '@octokit/rest';
 
 class GithubApi {
     constructor(opts) {
-        this.api = Octokit();
+        this.api = new Octokit();
 
         this.api.authenticate({
             type: 'token',
@@ -10,6 +10,12 @@ class GithubApi {
         });
 
         this.org = opts.org;
+    }
+
+    async getMe() {
+        const { id, login, avatar_url } = (await this.api.users.get({})).data;
+
+        return { id, login, avatarUrl: avatar_url };
     }
 
     getFilteredData(data, predicate, time) {
@@ -43,7 +49,9 @@ class GithubApi {
                 );
             }
 
-            data = data.concat(newData);
+            if (newData) {
+                data = data.concat(newData);
+            }
         }
         return data;
     }
@@ -104,7 +112,7 @@ class GithubApi {
             params
         );
 
-        return reviews;
+        return reviews.filter(Boolean);
     }
 
     async getPrMergeStatus(repo, number) {

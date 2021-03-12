@@ -1,11 +1,12 @@
 import { useEffect, useReducer } from 'react';
+import * as url from "url";
 
 const initialState = {
     token: null,
-    me: null,
     organisation: null,
     repositories: [],
-    filters: [],
+    filteredTags: [],
+    requiredTags: [],
     daysBeforeWarning: '1',
     daysBeforeCritical: '2',
     hoursUntilNotNew: '2',
@@ -18,12 +19,9 @@ const initialState = {
 function reducer(state, action) {
     switch (action.type) {
         case 'update':
-            if (!state.hasOwnProperty(action.key)) {
-                return state;
-            }
             return {
                 ...state,
-                [action.key]: action.value
+                ...action.settings,
             };
         default:
             throw new Error();
@@ -35,20 +33,14 @@ export const useSettings = () => {
 
     useEffect(() => {
         const urlParams = new URLSearchParams(window.location.search);
-
-        urlParams.forEach((value, key) =>
-            dispatch({
-                type: 'update',
-                key,
-                value: Array.isArray(state[key]) ? value.split(',') : value
-            })
-        );
-
-        // if (process.env.NODE_ENV !== 'development') {
-        //     window.history.replaceState({}, document.title, window.location.pathname);
-        // }
-
-        // eslint-disable-next-line react-hooks/exhaustive-deps
+        const settings = {};
+        for (const [key, value] of urlParams.entries()) {
+           settings[key] = Array.isArray(initialState[key]) ? value.split(',') : value;
+        }
+        dispatch({
+            type: 'update',
+            settings,
+        })
     }, []);
 
     return state;

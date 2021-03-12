@@ -25,10 +25,9 @@ PRs are ordered from oldest to newest and are clickable.
 | URL param | description | default value |
 |---|---|---|
 | token | [the github token used to make the requests](#how-to-get-a-github-token) | none |
-| me | your github username | none |
-| teams | comma separated list of teams you wish to follow | none |
 | repositories | comma separated list of repositories names you wish to follow | none |
-| filters | comma separated list of tags you wish to exclude from the dashboard | none |
+| filteredTags | comma separated list of tags you wish to exclude from the dashboard | none |
+| requiredTags | comma separated list of tags you wish to mark as required to display | none |
 | daysBeforeWarning | number of days before a PR turns into "warning" (orange) | 1 |
 | daysBeforeCritical | number of days before a PR turns into "critical" (red) | 2 |
 | hoursUntilNotNew | number of hours before a PR does not have the `new` badge anymore | 2 |
@@ -36,7 +35,7 @@ PRs are ordered from oldest to newest and are clickable.
 | onlyNotReviewed | display only PR which lacks required number of validations and that you did not already validate | true |
 | autoScroll | enable the auto-sroll or not (use it to display on a TV) | false |
 
-Example: https://github.io/pr-dashboard/?token=YOUR_PERSONAL_TOKEN&organisation=myorg&users=AlanChauchet,otherUser&repositories=myRepo,anotherRepo&filters=Stand%20by,WIP&autoScroll=true
+Example: https://github.io/pr-dashboard/?token=YOUR_GITHUB_TOKEN&organisation=yourOrg&repositories=myRepo,myOtherRepo&filteredTags=Stand%20by,WIP,dependencies&requiredTags=Waiting%20for%20review
 
 ### How to get a github token
 

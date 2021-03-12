@@ -24,12 +24,21 @@ export const useStyles = makeStyles(theme => ({
         margin: '1em 0',
         flex: 1
     },
+    username: {
+        fontSize: 18,
+    },
     loader: {
         marginLeft: '1em',
         position: 'absolute',
     },
-    nbMergedContainer: {
-        flex: 1
+    loginContainer: {
+        flex: 1,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    avatar: {
+        marginRight: '1em',
     },
     headerEndContainer: {
         flex: 1,

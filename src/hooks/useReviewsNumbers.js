@@ -17,6 +17,7 @@ export const useReviewsNumbers = (pullRequest) => {
                             let isStaleReview = false;
                             for (const checkReview of pullRequest.reviews) {
                                 if (
+                                    checkReview &&
                                     checkReview.id !== review.id &&
                                     checkReview.user.login === review.user.login &&
                                     checkReview.state === 'APPROVED' &&
