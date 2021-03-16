@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/github-pr-dashboard/static/css/main.527dd28a.chunk.css",
-    "main.js": "/github-pr-dashboard/static/js/main.1ac1fd03.chunk.js",
-    "main.js.map": "/github-pr-dashboard/static/js/main.1ac1fd03.chunk.js.map",
+    "main.js": "/github-pr-dashboard/static/js/main.556c9783.chunk.js",
+    "main.js.map": "/github-pr-dashboard/static/js/main.556c9783.chunk.js.map",
     "runtime-main.js": "/github-pr-dashboard/static/js/runtime-main.5ffbe1f8.js",
     "runtime-main.js.map": "/github-pr-dashboard/static/js/runtime-main.5ffbe1f8.js.map",
-    "static/js/2.679c2610.chunk.js": "/github-pr-dashboard/static/js/2.679c2610.chunk.js",
-    "static/js/2.679c2610.chunk.js.map": "/github-pr-dashboard/static/js/2.679c2610.chunk.js.map",
+    "static/js/2.13d04727.chunk.js": "/github-pr-dashboard/static/js/2.13d04727.chunk.js",
+    "static/js/2.13d04727.chunk.js.map": "/github-pr-dashboard/static/js/2.13d04727.chunk.js.map",
     "index.html": "/github-pr-dashboard/index.html",
     "static/css/main.527dd28a.chunk.css.map": "/github-pr-dashboard/static/css/main.527dd28a.chunk.css.map",
-    "static/js/2.679c2610.chunk.js.LICENSE.txt": "/github-pr-dashboard/static/js/2.679c2610.chunk.js.LICENSE.txt"
+    "static/js/2.13d04727.chunk.js.LICENSE.txt": "/github-pr-dashboard/static/js/2.13d04727.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5ffbe1f8.js",
-    "static/js/2.679c2610.chunk.js",
+    "static/js/2.13d04727.chunk.js",
     "static/css/main.527dd28a.chunk.css",
-    "static/js/main.1ac1fd03.chunk.js"
+    "static/js/main.556c9783.chunk.js"
   ]
 }
