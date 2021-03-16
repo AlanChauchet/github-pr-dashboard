@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/github-pr-dashboard/static/css/main.527dd28a.chunk.css",
-    "main.js": "/github-pr-dashboard/static/js/main.4b322c64.chunk.js",
-    "main.js.map": "/github-pr-dashboard/static/js/main.4b322c64.chunk.js.map",
+    "main.js": "/github-pr-dashboard/static/js/main.1ac1fd03.chunk.js",
+    "main.js.map": "/github-pr-dashboard/static/js/main.1ac1fd03.chunk.js.map",
     "runtime-main.js": "/github-pr-dashboard/static/js/runtime-main.5ffbe1f8.js",
     "runtime-main.js.map": "/github-pr-dashboard/static/js/runtime-main.5ffbe1f8.js.map",
     "static/js/2.679c2610.chunk.js": "/github-pr-dashboard/static/js/2.679c2610.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.5ffbe1f8.js",
     "static/js/2.679c2610.chunk.js",
     "static/css/main.527dd28a.chunk.css",
-    "static/js/main.4b322c64.chunk.js"
+    "static/js/main.1ac1fd03.chunk.js"
   ]
 }
